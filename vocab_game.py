@@ -9,9 +9,9 @@ if "ans1_val" not in st.session_state:
 if "ans2_val" not in st.session_state:
     st.session_state.ans2_val = ""
   # 1. กำหนดค่าเริ่มต้นใน session_state ถ้ายังไม่มี
-if "ans1_val" not in st.session_state:
+if "ans3_val" not in st.session_state:
     st.session_state.ans3_val = ""
-if "ans2_val" not in st.session_state:
+if "ans4_val" not in st.session_state:
     st.session_state.ans4_val = ""
 
 
